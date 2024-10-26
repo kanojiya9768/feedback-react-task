@@ -1,0 +1,182 @@
+.form_container,
+.feedback_container {
+  width: 100%;
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+  background-color: rgb(225, 224, 224);
+  box-shadow: 10px 10px black;
+}
+
+.form_heading,
+.feedback_heading {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(25, 25, 25);
+  margin-bottom: 20px;
+}
+
+.form,
+.feedback_form {
+  width: 400px;
+  height: max-content;
+  padding-block: 40px;
+  background: rgb(239, 239, 239);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  padding: 30px;
+}
+
+.form_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.form_inputs>input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid grey;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.form_submit_btn,
+.feedback_submit_btn {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  background: rgb(220, 220, 220);
+  color: rgb(62, 61, 61);
+  border: 2px solid rgb(201, 200, 200);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form_end_message {
+  color: rgb(60, 59, 59);
+  margin-block: 4px;
+  cursor: pointer;
+}
+
+.form_end_message>a {
+  text-decoration: none;
+  color: black;
+}
+
+.feedback_btn_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.feedback_btn_container>button {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  text-transform: capitalize;
+  background-color: rgb(200, 200, 200);
+  cursor: pointer;
+}
+
+.feedback_input_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-block: 10px;
+}
+
+.feedback_input_container>textarea {
+  height: 100px;
+  resize: none;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+.role_switch_container {
+  display: flex;
+  gap: 20px;
+}
+
+.roles {
+  display: flex;
+  cursor: pointer;
+}
+
+.roles>p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+.roles>input {
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  border: 2px solid rgb(218, 215, 215);
+  border-radius: 5px;
+
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+.table_btn {
+  display: flex;
+  gap: 10px;
+}
+
+.table_btn>button {
+  padding: 5px;
+  width: 70px;
+  background: rgb(177, 177, 177);
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+
+.logout_btn {
+  padding: 10px;
+  width: 100px;
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
